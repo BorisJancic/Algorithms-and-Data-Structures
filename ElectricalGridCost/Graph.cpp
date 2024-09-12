@@ -157,7 +157,7 @@ void Graph::cost() {
         if (vertices[i]) {
             visited[i] = true;
             Node* current = adjList[i];
-            while (current){
+            while (current) {
                 Q.insert(current->get_edge());
                 current = current->get_next();
             }
