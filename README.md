@@ -1,7 +1,7 @@
 # Projects for ECE 250, Algorithms and Data Structures
 
 
-## Project 1: Calculator App
+## Project 1: Calculator
 Simple calculator using object oriented patterns
 
 ## Project 2: Virtual Page Translation
