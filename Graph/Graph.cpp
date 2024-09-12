@@ -57,7 +57,7 @@ void Graph::insert(int a, int b, int w, bool print) {
     Edge* edge_b_a = new Edge(b, a, w);
     adjList[a-1] = new Node(b, w, adjList[a-1], edge_a_b);
     adjList[b-1] = new Node(a, w, adjList[b-1], edge_b_a);
-        if (print)
+    if (print)
         std::cout << "success" << std::endl;
 }
 void Graph::print(int a) {
